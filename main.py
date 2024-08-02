@@ -11,7 +11,7 @@ st.write('''
           build resilience to volatile prices, and lower energy costs.''')
 
 #importing data to the web app
-df = pd.read_csv("C:\Users\Admin\Desktop\Renewable-Energy-Consumption\WorldBank_Renewable_Energy_Internal_Project (1).ipynb")
+df = pd.read_csv("C:\Users\Admin\Desktop\Renewable-Energy-Consumption\WorldBank Renewable Energy Consumption_WorldBank Renewable Energy Consumption (1).csv")
 
 st.write(df.head(5)) # checking the first 5 rows
 
